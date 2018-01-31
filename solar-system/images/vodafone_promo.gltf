@@ -1,0 +1,275 @@
+{
+    "accessors": [
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 7126,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "name": "accessor_buffer_CUpath3711_COLOR_0_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 21180,
+            "max": [
+                7125
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_CUpath3711_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 7126,
+            "max": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "name": "accessor_buffer_CUpath3711_NORMAL_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 7126,
+            "max": [
+                0.10055205225944519,
+                0.08480007946491241,
+                -0.015501044690608978
+            ],
+            "min": [
+                -0.10576869547367096,
+                -0.09429116547107697,
+                -0.04855818301439285
+            ],
+            "name": "accessor_buffer_CUpath3711_POSITION_0",
+            "type": "VEC3"
+        }
+    ],
+    "asset": {
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 85512,
+            "byteOffset": 0,
+            "byteStride": 12,
+            "name": "bufferView_buffer_CUpath3711_POSITION_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 85512,
+            "byteOffset": 85512,
+            "byteStride": 12,
+            "name": "bufferView_buffer_CUpath3711_NORMAL_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 85512,
+            "byteOffset": 171024,
+            "byteStride": 12,
+            "name": "bufferView_buffer_CUpath3711_COLOR_0_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 42360,
+            "byteOffset": 256536,
+            "name": "bufferView_buffer_CUpath3711_0",
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 298896,
+            "name": "buffer_vodafone_promo",
+            "uri": "buffer_vodafone_promo.bin"
+        }
+    ],
+    "materials": [
+        {
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "SVGMat.002",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.7379103899002075,
+                    0.0,
+                    0.005017966963350773,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "CUpath3711",
+            "primitives": [
+                {
+                    "attributes": {
+                        "COLOR_0": 0,
+                        "NORMAL": 2,
+                        "POSITION": 3
+                    },
+                    "indices": 1,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "name": "Curve.001",
+            "rotation": [
+                0.7071068286895752,
+                0.0,
+                0.0,
+                0.7071068286895752
+            ],
+            "scale": [
+                22.866313934326172,
+                21.99110221862793,
+                21.879648208618164
+            ],
+            "translation": [
+                -0.027408117428421974,
+                -0.4676995277404785,
+                2.0212831497192383
+            ]
+        },
+        {
+            "name": "Lamp",
+            "rotation": [
+                0.16907577216625214,
+                0.27217137813568115,
+                0.7558802962303162,
+                0.5709474682807922
+            ],
+            "scale": [
+                11.066269874572754,
+                11.15149211883545,
+                10.81066608428955
+            ],
+            "translation": [
+                -0.5647678375244141,
+                4.826086044311523,
+                2.7493786811828613
+            ]
+        },
+        {
+            "name": "Lamp.002",
+            "rotation": [
+                0.16907577216625214,
+                0.27217137813568115,
+                0.7558802962303162,
+                0.5709474682807922
+            ],
+            "scale": [
+                11.066269874572754,
+                11.15149211883545,
+                10.81066608428955
+            ],
+            "translation": [
+                1.191504955291748,
+                -3.149569511413574,
+                3.8823156356811523
+            ]
+        },
+        {
+            "name": "Text",
+            "rotation": [
+                0.7071068286895752,
+                0.0,
+                0.0,
+                0.7071068286895752
+            ],
+            "scale": [
+                42.05049133300781,
+                45.95966339111328,
+                38.71968460083008
+            ],
+            "translation": [
+                -0.05935776233673096,
+                0.2931651473045349,
+                5.255706787109375
+            ]
+        },
+        {
+            "children": [
+                3,
+                0,
+                1,
+                2
+            ],
+            "matrix": [
+                -1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "name": "Scene_root"
+        }
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "extras": {
+                "background_color": [
+                    0.05087608844041824,
+                    0.05087608844041824,
+                    0.05087608844041824
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                4
+            ]
+        }
+    ]
+}
